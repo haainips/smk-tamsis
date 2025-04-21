@@ -24,7 +24,7 @@
             </div>
             <div class="flex flex-col justify-center w-1/2 pt-10">
                 <span class="">
-                    <h1 class="font-title text-4xl font-semibold">PROGRAM KERJA WAKA SARPRAS</h1>
+                    <h1 class="font-title text-3xl font-semibold">PROGRAM KERJA WAKA SARPRAS</h1>
                     <p class="font-subtitle text-xl pt-8 text-justify">WAKA SARPAS di SMK adalah singkatan dari Wakil Kepala Sekolah bidang Sarana dan Prasarana. Tugas utama WAKA SARPAS adalah mengelola, mengawasi, dan memastikan ketersediaan serta pemeliharaan sarana dan prasarana di sekolah agar proses pembelajaran berjalan dengan lancar.</p>
                 </span>
                 <p class="font-subtitle text-xl pt-8">PROGRAM UMUM :</p>
@@ -41,7 +41,9 @@
             </div>
         </div>
     </div>
-    <hr class="border-t-2 my-8 border-primary">
+    <div class="max-w-8xl px-10 mx-auto">
+        <hr class="border-t-2 py-5  border-primary">
+    </div>
     @include('components.berita')
 @endsection
 

@@ -1,5 +1,5 @@
 <footer class="bg-primary text-white px-6 py-4">
-    <div class="container mx-auto grid md:grid-cols-3 gap-8 py-4">
+    <div id="footer" class="container mx-auto grid md:grid-cols-3 gap-8 py-4">
 
         <!-- Kolom 1: Logo & Alamat -->
         <div class="flex flex-col items-center text-center ">
@@ -9,12 +9,12 @@
             <p class="font-subtitle font-extralight text-sm">Jl. Pakuningratan No.34A, Cokrodiningratan, Kec. Jetis, Kota Yogyakarta, Daerah Istimewa
                 Yogyakarta 55233</p>
         
-            <button class="border flex gap-2 font-subtitle border-white bg-secondary drop-shadow-default rounded-full mt-5 px-4 py-1 hover:bg-white hover:text-[#02807F] transition">
+            <a href="{{route('lokasi')}}" class="border flex gap-2 font-subtitle border-white bg-secondary drop-shadow-default rounded-full mt-5 px-4 py-1 hover:bg-white hover:text-[#02807F] transition">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                     <path fill="currentColor"
                         d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7" />
                 </svg>Lokasi Sekolah
-            </button>
+            </a>
         </div>
 
         <!-- Kolom 2: Link Terkait -->

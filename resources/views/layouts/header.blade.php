@@ -8,11 +8,11 @@
     
         <!-- Menu -->
         <ul class="flex items-center space-x-6 px-6">
-            <li><a href="{{route('home')}}" class="hover:underline font-subtitle font-semibold text-xl">Beranda</a></li>
+            <li><a href="{{route('home')}}" class="hover:underline font-subtitle font-semibold text-lg">Beranda</a></li>
             <div class="relative group">
                 <div class="flex items-center gap-2">
-                    <button class="flex items-center font-subtitle font-semibold text-xl hover:underline">Tentang</button>
-                    <img src="{{ asset('images/icons/icon-dropdown.png') }}" alt="">
+                    <button class="flex items-center font-subtitle font-semibold text-lg hover:underline">Tentang</button>
+                    <img src="{{ asset('images/icons/icon-dropdown.png') }}" alt="" class="w-4">
                 </div>
                 <div class="absolute z-10 hidden group-hover:block bg-slight text-white rounded-b-xl shadow w-60">
                     <a href="{{route('kepala-sekolah')}}" class="block px-4 py-2 hover:bg-white hover:text-primary border text-lg font-subtitle font-semibold">Sambutan Kepala Sekolah</a>
@@ -23,8 +23,8 @@
             </div>
             <div class="relative group">
                 <div class="flex items-center gap-2">
-                    <button class="flex items-center font-subtitle font-semibold text-xl">Jurusan Dibuka</button>
-                    <img src="{{ asset('images/icons/icon-dropdown.png') }}" alt="">
+                    <button class="flex items-center font-subtitle font-semibold text-lg">Jurusan Dibuka</button>
+                    <img src="{{ asset('images/icons/icon-dropdown.png') }}" alt="" class="w-4">
                 </div>
                 <div class="absolute z-10 hidden group-hover:block bg-slight text-white rounded-b-xl shadow w-52">
                     <a href="{{route('titl')}}" class="block px-4 py-2 hover:bg-white hover:text-primary border text-lg font-subtitle font-semibold">TITL</a>
@@ -36,8 +36,8 @@
             </div>
             <div class="relative group">
                 <div class="flex items-center gap-2">
-                    <button class="flex items-center font-subtitle font-semibold text-xl">Program</button>
-                    <img src="{{ asset('images/icons/icon-dropdown.png') }}" alt="">
+                    <button class="flex items-center font-subtitle font-semibold text-lg">Program</button>
+                    <img src="{{ asset('images/icons/icon-dropdown.png') }}" alt="" class="w-4">
                 </div>
                 <div class="absolute z-10 hidden group-hover:block bg-slight text-white rounded-b-xl shadow w-52">
                     <a href="{{route('kurikulum')}}" class="block px-4 py-2 hover:bg-white hover:text-primary border text-lg font-subtitle font-semibold">WK. KURIKULUM</a>
@@ -47,9 +47,9 @@
                     <a href="{{route('ekstrakurikuler')}}" class="block px-4 py-2 hover:bg-white hover:text-primary border text-lg font-subtitle font-semibold rounded-b-xl">EKSTRAKURIKULER</a>
                 </div>
             </div>
-            <li><a href="#" class="hover:underline font-subtitle font-semibold text-xl">Berita</a></li>
-            <li><a href="#" class="hover:underline font-subtitle font-semibold text-xl">Galeri</a></li>
-            <li><a href="#" class="hover:underline font-subtitle font-semibold text-xl">Kontak</a></li>
+            <li><a href="{{route('home-berita')}}" class="hover:underline font-subtitle font-semibold text-lg">Berita</a></li>
+            <li><a href="{{route('galeri')}}" class="hover:underline font-subtitle font-semibold text-lg">Galeri</a></li>
+            <li><a href="#footer" class="hover:underline font-subtitle font-semibold text-lg">Kontak</a></li>
         </ul>
     </nav>
 

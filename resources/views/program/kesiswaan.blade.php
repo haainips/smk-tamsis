@@ -15,7 +15,7 @@
 
                     <!-- Profile Photo -->
                     <img src="{{ asset('images/kesiswaan.png') }}" alt="Waka Kurikulum"
-                        class="relative z-10 object-cover left-20 " width="210px">
+                        class="relative z-10 object-cover left-24" width="190px">
                 </div>
                 <span class="text-center text-xl font-subtitle leading-tight">
                     <h1 class="font-semibold">Waka Kesiswaan</h1>
@@ -24,7 +24,7 @@
             </div>
             <div class="flex flex-col justify-center w-1/2">
                 <span class="">
-                    <h1 class="font-title text-4xl font-semibold">PROGRAM KERJA WAKA KESISWAAN</h1>
+                    <h1 class="font-title text-3xl font-semibold">PROGRAM KERJA WAKA KESISWAAN</h1>
                     <p class="font-subtitle text-xl pt-8 text-justify">Wakil Kepala Sekolah Bidang Kesiswaan (Waka
                         Kesiswaan) adalah salah satu pejabat struktural di sekolah yang bertanggung jawab atas pengelolaan
                         dan pengembangan seluruh kegiatan yang berkaitan dengan siswa, baik dalam aspek akademik maupun
@@ -41,7 +41,7 @@
                         <span class="font-subtitle text-xl mr-6">1.</span>
                         <p class="font-subtitle text-xl text-justify">Program pembinaan PPTS/OSIS mencakup :</p>
                     </div>
-                    <ul class="list-disc text-justify ml-10 font-subtitle text-xl">
+                    <ul class="list-disc text-justify ml-10 font-subtitle text-xl space-y-2">
                         <li>Pembinaan kedisiplinan terhadap Tuhan yang Maha Esa</li>
                         <li>Pembinaan akhlak mulia atau karakter bangsa</li>
                         <li>Pembinaan kepemimpinan, wawasan kebangsaan, dan bela negara</li>
@@ -63,7 +63,7 @@
                         <span class="font-subtitle text-xl mr-6">2.</span>
                         <p class="font-subtitle text-xl text-justify">Program Pembinaan Ekstrakurikuler</p>
                     </div>
-                    <ul class="list-disc text-justify ml-10 font-subtitle text-xl">
+                    <ul class="list-disc text-justify ml-10 font-subtitle text-xl space-y-2">
                         <li>Bidang Olahraga.</li>
                         <li>Bidang Seni.</li>
                         <li>Pembinaan Ketaqwaan Terhadap Tuhan Yang Maha Esa.</li>
@@ -85,7 +85,9 @@
         </div>
     </div>
 
-    <hr class="border-t-2 my-8 border-primary">
+    <div class="max-w-8xl px-10 mx-auto">
+        <hr class="border-t-2 py-5  border-primary">
+    </div>
 
     @include('components.berita')
 @endsection

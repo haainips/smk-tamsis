@@ -29,7 +29,19 @@ Route::view('/program/sarpras', 'program.sarpras')->name('sarpras');
 Route::view('/program/ekstrakurikuler', 'program.ekstrakurikuler')->name('ekstrakurikuler');
 
 #Berita
+Route::view('/berita', 'home-berita')->name('home-berita');
 Route::view('/berita-1', 'berita.berita-1')->name('berita1');
 Route::view('/berita-2', 'berita.berita-2')->name('berita2');
 Route::view('/berita-3', 'berita.berita-3')->name('berita3');
+
+#Galeri
+Route::view('/galeri', 'galeri')->name('galeri');
+Route::view('/galeri/2', 'pagination.pagination-galeri-2')->name('pagination-galeri-2');
+Route::view('/galeri/3', 'pagination.pagination-galeri-3')->name('pagination-galeri-3');
+
+#Pagination berita
+Route::view('/berita/2', 'pagination.pagination-berita-2')->name('pagination-berita-2');
+Route::view('/berita/3', 'pagination.pagination-berita-3')->name('pagination-berita-3');
+
+Route::view('/lokasi', 'lokasi')->name('lokasi');
 

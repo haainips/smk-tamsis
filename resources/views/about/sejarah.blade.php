@@ -1,11 +1,11 @@
 @extends('layouts.main')
 
-@section('title', 'SMK Tamansiswa Jetis Yogyakarta')
+@section('title', 'Sejarah - SMK Tamansiswa Jetis Yogyakarta')
 
 @section('content')
     @include('components.slider')
 
-    <div class="py-10 px-4">
+    <div class="py-14 px-4 max-w-6xl mx-auto">
         <h1 class="text-3xl font-title font-semibold text-center">Sejarah SMK Tamansiswa Jetis Yogyakarta</h1>
 
         <p class="font-subtitle text-xl leading-relaxed pt-6 text-justify">

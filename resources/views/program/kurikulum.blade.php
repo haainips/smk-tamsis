@@ -5,7 +5,7 @@
 @section('content')
     @include('components.slider')
 
-    <div class="flex px-10 justify-center pb-20">
+    <div class="flex px-10 justify-center pb-16">
         <div>
             <div class="relative w-96 flex-shrink-0">
                 <!-- Vector backgrounds -->
@@ -23,7 +23,7 @@
         </div>
         <div class="flex flex-col justify-center mt-16 w-1/2">
             <span class="">
-                <h1 class="font-title text-4xl font-semibold mt-20">PROGRAM KERJA WAKA KURIKULUM</h1>
+                <h1 class="font-title text-3xl font-semibold mt-20">PROGRAM KERJA WAKA KURIKULUM</h1>
                 <p class="font-subtitle text-xl pt-8 text-justify">Wakil Kepala Sekolah bidang Kurikulum (Waka Kurikulum) di
                     SMK
                     Tamansiswa Jetis Yogyakarta adalah pejabat yang bertanggung jawab atas perencanaan, pelaksanaan, dan
@@ -58,7 +58,9 @@
         </div>
     </div>
 
-    <hr class="border-t-2 my-8 border-primary">
+    <div class="max-w-8xl px-10 mx-auto">
+        <hr class="border-t-2 py-5  border-primary">
+    </div>
 
     @include('components.berita')
 @endsection

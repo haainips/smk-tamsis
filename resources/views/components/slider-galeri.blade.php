@@ -1,6 +1,6 @@
 <div x-data="{
     active: 0,
-    slides: ['/images/galeri1.jpeg', '/images/galeri2.png', '/images/galeri3.jpeg','/images/galeri1.jpeg', '/images/galeri2.png', '/images/galeri3.jpeg'],
+    slides: ['/images/galeri/galeri1.jpeg', '/images/galeri/galeri2.png', '/images/galeri/galeri3.jpeg','/images/galeri/galeri1.jpeg', '/images/galeri/galeri2.png', '/images/galeri/galeri3.jpeg'],
     startX: 0,
     currentX: 0,
     isDragging: false,
@@ -58,7 +58,7 @@
 
         <template x-for="(slide, index) in slides" :key="index">
             <div class="flex-shrink-0" :style="`width: ${slideWidth}%`">
-                <img :src="slide" alt="" class="w-full h-[351px] object-cover rounded-xl pointer-events-none">
+                <img :src="slide" alt="" class="w-full h-[300px] object-cover rounded-xl pointer-events-none">
             </div>
         </template>
     </div>

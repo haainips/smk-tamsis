@@ -24,7 +24,7 @@
             </div>
             <div class="flex flex-col justify-center w-1/2">
                 <span class="">
-                    <h1 class="font-title text-4xl font-semibold">PROGRAM KERJA WAKA HUMAS</h1>
+                    <h1 class="font-title text-3xl font-semibold">PROGRAM KERJA WAKA HUMAS</h1>
                     <p class="font-subtitle text-xl pt-8 text-justify">Pelaksanaan Praktek Kerja Lapangan (PKL) sebagai
                         bentuk promosi atau ajang pembuktian kepada Dunia Usaha/Dunia Industri bahwa siswa memiliki
                         kompetensi keterampilan dan bisa menerapkannya di tempat prakerin. Sehingga kedepannya pihak
@@ -106,7 +106,9 @@
         </div>
     </div>
 
-    <hr class="border-t-2 my-8 border-primary">
+    <div class="max-w-8xl px-10 mx-auto">
+        <hr class="border-t-2 py-5 border-primary">
+    </div>
 
     @include('components.berita')
 @endsection

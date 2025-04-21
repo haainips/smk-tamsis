@@ -1,20 +1,20 @@
 @extends('layouts.main')
 
-@section('title', 'SMK Tamansiswa Jetis Yogyakarta')
+@section('title', 'Sambutan Kepala Sekolah - SMK Tamansiswa Jetis Yogyakarta')
 
 @section('content')
     @include('components.slider')
 
-    <div class="flex gap-10 py-10">
+    <div class="flex gap-10 py-10 max-w-7xl mx-auto">
         <div class="">
-            <img src="{{ asset('images/kepsek.jpeg') }}" alt="" class="rounded-3xl w-full" >
-            <span class="flex flex-col items-center font-subtitle text-xl leading-tight pt-3">
+            <img src="{{ asset('images/kepsek.jpeg') }}" alt="" class="rounded-3xl w-fit" >
+            <span class="flex flex-col items-center font-subtitle text-lg leading-tight pt-3">
                 <h1>Kepala Sekolah</h1>
                 <p class="font-semibold">Ana Aprilia Setyawati, S.E.</p>
                 <p class="font-semibold">NIY.070096</p>
             </span>
         </div>
-        <div class="w-fit">
+        <div class="w-fit space-y-4">
             <h1 class="font-title text-3xl">Sambutan Kepala Sekolah</h1>
             <span class="font-subtitle text-xl text-justify space-y-6">
                 <p>Assalaamu'alaikum Warahmatullahi Wabarakatuh.</p>
@@ -31,7 +31,9 @@
         </div>
     </div>
 
-    <hr class="border-t-2 my-10 border-primary">
+    <div class="max-w-8xl px-10 mx-auto">
+        <hr class="border-t-2 py-5 mt-10  border-primary">
+    </div>
 
     <div class="pb-6">
         @include('components.berita')
