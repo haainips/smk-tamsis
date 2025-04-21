@@ -47,7 +47,7 @@
                     <a href="{{route('ekstrakurikuler')}}" class="block px-4 py-2 hover:bg-white hover:text-primary border text-lg font-subtitle font-semibold rounded-b-xl">EKSTRAKURIKULER</a>
                 </div>
             </div>
-            <li><a href="{{route('home-berita')}}" class="hover:underline font-subtitle font-semibold text-md">Berita</a></li>
+            <li><a href="{{route('berita')}}" class="hover:underline font-subtitle font-semibold text-md">Berita</a></li>
             <li><a href="{{route('galeri')}}" class="hover:underline font-subtitle font-semibold text-md">Galeri</a></li>
             <li><a href="#footer" class="hover:underline font-subtitle font-semibold text-md">Kontak</a></li>
         </ul>

@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Program Kerja Waka Kurikulum')
+@section('title', 'Ekstrakurikuler - SMK Tamansiswa Jetis Yogyakarta')
 
 @section('content')
     @include('components.slider')

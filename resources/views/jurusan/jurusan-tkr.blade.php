@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Jurusan TKRSMK Tamansiswa Jetis Yogyakarta')
+@section('title', 'Jurusan TKR - SMK Tamansiswa Jetis Yogyakarta')
 
 @section('content')
     @include('components.slider')

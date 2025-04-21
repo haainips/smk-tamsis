@@ -2,7 +2,7 @@
     <div class="flex flex-col py-6 px-8 bg-[#107A9B2E] rounded-lg ">
         <div class="flex justify-between">
             <p class="text-black font-subtitle font-semibold text-2xl">Berita Terbaru</p>
-            <a href="" class="text-black font-subtitle text-sm hover:underline">Lihat Semua Berita</a>
+            <a href="{{route('berita')}}" class="text-black font-subtitle text-sm hover:underline">Lihat Semua Berita</a>
         </div>
         <div class="flex justify-between gap-8 py-3 mt-4">
             <div class="space-y-2">
