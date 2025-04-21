@@ -8,15 +8,15 @@
 
     @php
         $berita = [
-            ['judul' => 'Pesantren Ramadan 1446 Hijriah Kelas X SMK Tamansiswa Jetis Yogyakarta', 'gambar' => 'berita1.png', 'tanggal' => 'Kamis, 14 Januari 2025', 'link' => '/berita1'],
-            ['judul' => 'Alumni Mengajar: Wadah Berbagi Inspirasi Sekaligus Mempererat Silaturahmi', 'gambar' => 'berita2.png', 'tanggal' => 'Kamis, 14 Januari 2025', 'link' => '/berita2'],
-            ['judul' => 'Pramuka SMK Tamansiswa Jetis Jejakkan Kaki di PDT ke-53', 'gambar' => 'berita3.png', 'tanggal' => 'Kamis, 14 Januari 2025', 'link' => '/berita3'],
-            ['judul' => 'KEBERHASILAN SMK TAMANSISWA JETIS YOGYAKARTA DALAM MENGGELAR...', 'gambar' => 'berita4.png', 'tanggal' => 'Kamis, 14 Januari 2025'],
-            ['judul' => 'Asesmen Bakat Minat Kelas XII SMK Tamansiswa Jetis Yogyakarta', 'gambar' => 'berita5.png', 'tanggal' => 'Kamis, 14 Januari 2025'],
-            ['judul' => 'SMK Tamansiswa Jetis Mengadakan Simulasi Bencana Gempa...', 'gambar' => 'berita6.png', 'tanggal' => 'Kamis, 14 Januari 2025'],
-            ['judul' => 'Workshop bersama Komite Sekolah dalam Upaya Pengembangan...', 'gambar' => 'berita7.png', 'tanggal' => 'Kamis, 14 Januari 2025'],
-            ['judul' => 'SMK Tamansiswa Jetis meriahkan HUT Kota Yogyakarta ke-261...', 'gambar' => 'berita8.png', 'tanggal' => 'Kamis, 14 Januari 2025'],
-            ['judul' => 'Workshop Pemanfaatan Sarana dan Prasarana Pendukung Penyelenggaraan...', 'gambar' => 'berita9.png', 'tanggal' => 'Kamis, 14 Januari 2025'],
+            ['judul' => 'Pesantren Ramadan 1446 Hijriah Kelas X SMK Tamansiswa Jetis Yogyakarta', 'gambar' => 'berita1.png', 'tanggal' => 'Kamis, 14 Januari 2025', 'link' => '/berita-1'],
+            ['judul' => 'Alumni Mengajar: Wadah Berbagi Inspirasi Sekaligus Mempererat Silaturahmi', 'gambar' => 'berita2.png', 'tanggal' => 'Kamis, 14 Januari 2025', 'link' => '/berita-2'],
+            ['judul' => 'Pramuka SMK Tamansiswa Jetis Jejakkan Kaki di PDT ke-53', 'gambar' => 'berita3.png', 'tanggal' => 'Kamis, 14 Januari 2025', 'link' => '/berita-3'],
+            ['judul' => 'KEBERHASILAN SMK TAMANSISWA JETIS YOGYAKARTA DALAM MENGGELAR...', 'gambar' => 'berita4.png', 'tanggal' => 'Kamis, 14 Januari 2025', 'link' => '/berita-3'],
+            ['judul' => 'Asesmen Bakat Minat Kelas XII SMK Tamansiswa Jetis Yogyakarta', 'gambar' => 'berita5.png', 'tanggal' => 'Kamis, 14 Januari 2025', 'link' => '/berita-3'],
+            ['judul' => 'SMK Tamansiswa Jetis Mengadakan Simulasi Bencana Gempa...', 'gambar' => 'berita6.png', 'tanggal' => 'Kamis, 14 Januari 2025', 'link' => '/berita-3'],
+            ['judul' => 'Workshop bersama Komite Sekolah dalam Upaya Pengembangan...', 'gambar' => 'berita7.png', 'tanggal' => 'Kamis, 14 Januari 2025', 'link' => '/berita-3'],
+            ['judul' => 'SMK Tamansiswa Jetis meriahkan HUT Kota Yogyakarta ke-261...', 'gambar' => 'berita8.png', 'tanggal' => 'Kamis, 14 Januari 2025', 'link' => '/berita-3'],
+            ['judul' => 'Workshop Pemanfaatan Sarana dan Prasarana Pendukung Penyelenggaraan...', 'gambar' => 'berita9.png', 'tanggal' => 'Kamis, 14 Januari 2025', 'link' => '/berita-3'],
             // dst...
         ];
     @endphp
@@ -32,7 +32,7 @@
                     <div class="py-2">
                         <h3 class="font-subtitle font-semibold text-lg">{{ $item['judul'] }}</h3>
                         <p class="font-subtitle text-xs text-gray-500">{{ $item['tanggal'] }}</p>
-                        <a href=""
+                        <a href="{{ $item['link'] }}"
                             class="inline-block border-b-1 w-full py-1 mt-5 text-white font-subtitle border-white bg-secondary drop-shadow-default rounded-full hover:bg-black transition text-center">Lihat
                             Berita</a>
                     </div>

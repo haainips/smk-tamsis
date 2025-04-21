@@ -36,8 +36,6 @@ Route::view('/berita-3', 'berita.berita-3')->name('berita3');
 
 #Galeri
 Route::view('/galeri', 'galeri')->name('galeri');
-Route::view('/galeri/2', 'pagination.pagination-galeri-2')->name('pagination-galeri-2');
-Route::view('/galeri/3', 'pagination.pagination-galeri-3')->name('pagination-galeri-3');
 
 #Pagination berita
 Route::view('/berita/2', 'pagination.pagination-berita-2')->name('pagination-berita-2');

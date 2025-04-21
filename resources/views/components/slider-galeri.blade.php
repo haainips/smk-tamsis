@@ -1,6 +1,6 @@
 <div x-data="{
     active: 0,
-    slides: ['/images/galeri/galeri1.jpeg', '/images/galeri/galeri2.png', '/images/galeri/galeri3.jpeg','/images/galeri/galeri1.jpeg', '/images/galeri/galeri2.png', '/images/galeri/galeri3.jpeg'],
+    slides: ['/images/galeri/galeri1.jpeg', '/images/galeri/galeri2.jpeg', '/images/galeri/galeri3.jpeg','/images/galeri/galeri1.jpeg', '/images/galeri/galeri2.jpeg', '/images/galeri/galeri3.jpeg'],
     startX: 0,
     currentX: 0,
     isDragging: false,
