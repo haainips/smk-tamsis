@@ -5,17 +5,17 @@
 @section('content')
     @include('components.slider')
 
-    <div class="py-14 px-4 max-w-6xl mx-auto">
+    <div class="py-14 md:px-4 max-w-6xl px-8 mx-auto">
         <h1 class="text-3xl font-title font-semibold text-center">Sejarah SMK Tamansiswa Jetis Yogyakarta</h1>
 
-        <p class="font-subtitle text-xl leading-relaxed pt-6 text-justify">
+        <p class="font-subtitle text-lg md:text-xl leading-relaxed pt-6 text-justify">
             SMK Tamansiswa Jetis Yogyakarta merupakan Sekolah Menengah Kejuruan Swasta di bawah naungan Yayasan Persatuan
             Perguruan Tamansiswa yang berpusat di Yogyakarta. Sekolah ini berdiri pada 1 Januari 1969 dengan nama Tamansiswa
             Karya Madya Teknik Jetis Yogyakarta. Gagasan pendirian sekolah ini dicetuskan oleh Ki Madukoro dan Ki Utomo,
             keduanya guru SMK Negeri Jetis, bersama Ki Suprapto.
         </p>
 
-        <p class="font-subtitle text-xl leading-relaxed pt-4 text-justify">
+        <p class="font-subtitle text-lg md:text-xl leading-relaxed pt-4 text-justify">
             Langkah-langkah pendirian dimulai Oktober–November 1968. Rapat pertama dihadiri Ki Suprapto, Ki Madukoro, dan Ki
             Utomo
             yang menyepakati berdirinya STM Taman Karya Madya Jetis. Rapat kedua pada November 1968 dihadiri tokoh-tokoh
@@ -23,12 +23,12 @@
             lainnya dan disepakati penggunaan nama STM Tamansiswa agar lebih dikenal masyarakat.
         </p>
 
-        <p class="font-subtitle text-xl leading-relaxed pt-4 text-justify">
+        <p class="font-subtitle text-lg md:text-xl leading-relaxed pt-4 text-justify">
             STM ini membuka penerimaan pertama kali pada 2 Januari 1968 dengan dua jurusan: Mesin Umum dan Listrik Kuat.
             Penjurusan dilakukan saat siswa naik kelas dua berdasarkan nilai-nilai pelajaran tertentu.
         </p>
 
-        <div class="font-subtitle text-xl mt-6 space-y-6">
+        <div class="font-subtitle text-lg md:text-xl mt-6 space-y-6">
             <div>
                 <div class="flex gap-3">
                     <span class="flex-none">1.</span>
@@ -95,7 +95,7 @@
 
         </div>
 
-        <p class="font-subtitle text-xl leading-relaxed mt-6 text-justify">
+        <p class="font-subtitle text-lg md:text-xl leading-relaxed mt-6 text-justify">
             SMK Tamansiswa Jetis Yogyakarta saat ini memiliki beberapa jurusan: Teknik Komputer dan Jaringan, Teknik
             Kendaraan
             Ringan, Teknik Bisnis Sepeda Motor, serta Multimedia. Kampus I berada di Jl. Pakuningratan 34A dan Kampus II di

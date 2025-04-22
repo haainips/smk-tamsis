@@ -58,7 +58,7 @@
 
         <template x-for="(slide, index) in slides" :key="index">
             <div class="flex-shrink-0" :style="`width: ${slideWidth}%`">
-                <img :src="slide" alt="" class="w-full h-[300px] object-cover rounded-xl pointer-events-none">
+                <img :src="slide" alt="" class="w-fit md:w-full h-[200px] md:h-[300px] object-cover rounded-xl pointer-events-none">
             </div>
         </template>
     </div>

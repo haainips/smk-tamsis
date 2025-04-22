@@ -122,14 +122,14 @@
 
     <div class="max-w-7xl mx-auto">
         <div class="flex flex-col justify-center py-14 items-center">
-            <h1 class="text-3xl font-title pb-10">BERITA SMK TAMSIS JETIS YK</h1>
+            <h1 class="text-2xl md:text-3xl font-title pb-10">BERITA SMK TAMSIS JETIS YK</h1>
             <div class="py-6 rounded-lg drop-shadow-default">
 
                 <div x-data="galeri()" x-init="init()" data-berita='@json($berita)'
-                    class="space-y-8">
+                    class="space-y-8 px-10 md:px-0">
 
                     <!-- Galeri -->
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 space-y-4 w-full">
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-10 space-y-4 w-full">
                         <template x-for="item in paginatedBerita" :key="item.gambar">
                             <div x-transition:enter="transition-opacity duration-500" x-transition:enter-start="opacity-0"
                                 x-transition:enter-end="opacity-100" x-transition:leave="transition-opacity duration-300"
@@ -140,7 +140,7 @@
                                     class="w-full h-48 object-cover rounded-xl pb-4">
 
                                 <!-- Judul Berita -->
-                                <h2 class="font-subtitle text-lg font-semibold" x-text="item.judul"></h2>
+                                <h2 class="font-subtitle text-md md:text-lg font-semibold line-clamp-3" x-text="item.judul"></h2>
 
                                 <!-- Tanggal -->
                                 <p class="font-subtitle text-sm text-gray-500 pb-4" x-text="item.tanggal"></p>

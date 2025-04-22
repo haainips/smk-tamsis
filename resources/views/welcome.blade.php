@@ -6,18 +6,17 @@
 
     @include('components.slider')
 
-    <div class="flex gap-16 px-20 py-8">
+    <div class="md:flex gap-16 px-10 md:px-20 py-8">
         <img src="{{ asset('images/landing-image1.svg') }}" alt="" width="470px">
         <div>
-            <div class="flex items-center gap-2">
+            <div class="flex items-center gap-2 pt-4">
                 <span
-                    class="text-8xl font-title text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-yellow-500">55</span>
+                    class="text-6xl md:text-8xl font-title text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-yellow-500">55</span>
                 <div class="leading-tight">
-                    <div class="font-title text-3xl">Tahun</div>
-                    <div class="font-title text-3xl ">SMK Tamansiswa Jetis Yogyakarta</div>
+                    <div class="font-title text-xl md:text-3xl ">Tahun <br>SMK Tamansiswa Jetis Yogyakarta</div>
                 </div>
             </div>
-            <p class="text-justify text-lg mt-2 font-subtitle">Selamat datang di website SMK Tamansiswa Jetis Yogyakarta.
+            <p class="text-justify md:text-lg mt-2 font-subtitle">Selamat datang di website SMK Tamansiswa Jetis Yogyakarta.
                 Dalam perkembangan era glob alisasi dan pesatnya kemajuan
                 teknologi dan informasi ini, tidak dapat dipungkiri bahwa keberadaan sebuah website untuk dunia pendidikan
                 khususnya
@@ -32,15 +31,19 @@
                 prestasi-prestasi yang telah berhasil diraih oleh SMK Tamansiswa Jetis Yogyakarta.</p>
         </div>
     </div>
-    <div class="max-w-7xl mx-auto">
+
+    <div class="max-w-8xl px-10 mx-auto">
         <hr class="border-t-2 py-5  border-primary">
     </div>
-    <div class="grid grid-cols-3 gap-10 pb-8 px-20 justify-center">
+
+    <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-10 px-10 sm:px-6 md:px-10 lg:px-20 pb-8 justify-center">
         {{-- Card 1 --}}
         <div
-            class="flex justify-center py-4 px-8 gap-7 bg-secondary rounded-4xl drop-shadow-default hover:bg-black border-b-2 border-white">
-            <div class="flex items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="" height="100" viewBox="0 0 24 24">
+            class="flex justify-center px-10 py-4 gap-6 sm:gap-7 bg-secondary rounded-4xl drop-shadow-default hover:bg-black border-b-2 border-white transition">
+            <div class="flex items-center gap-10 justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="" height="90" sm:height="90" md:height="100"
+                    viewBox="0 0 24 24">
                     <defs>
                         <linearGradient id="grad-icon" x1="100%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" style="stop-color:#FFFF; stop-opacity:1" />
@@ -52,16 +55,16 @@
                 </svg>
             </div>
             <div class="leading-tight">
-                <h1 class="text-white font-subtitle font-semibold text-2xl">PPDB Online<br>Pendaftaran<br>Peserta
+                <h1 class="text-white font-subtitle font-semibold text-xl sm:text-2xl">PPDB Online<br>Pendaftaran<br>Peserta
                     Didik<br>Baru</h1>
             </div>
         </div>
 
         {{-- Card 2 --}}
         <div
-            class="flex justify-center py-4 px-8 gap-7 bg-secondary rounded-4xl drop-shadow-default hover:bg-black border-b-2 border-white">
-            <div class="flex items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="" height="100" viewBox="0 0 512 512">
+            class="flex justify-center px-10 py-4 gap-6 sm:gap-7 bg-secondary rounded-4xl drop-shadow-default hover:bg-black border-b-2 border-white transition">
+            <div class="flex items-center gap-14 justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="" height="90" viewBox="0 0 512 512">
                     <defs>
                         <linearGradient id="grad-icon" x1="100%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" style="stop-color:#FFFF; stop-opacity:1" />
@@ -73,16 +76,16 @@
                 </svg>
             </div>
             <div class="leading-tight">
-                <h1 class="text-white font-subtitle font-semibold text-2xl">Ikatan Alumni<br>dan Bursa<br>Lowongan<br>Kerja
+                <h1 class="text-white font-subtitle font-semibold text-xl sm:text-2xl">Ikatan Alumni<br>dan Bursa<br>Lowongan<br>Kerja
                 </h1>
             </div>
         </div>
 
         {{-- Card 3 --}}
         <div
-            class="flex justify-center py-4 px-8 gap-7 bg-secondary rounded-4xl drop-shadow-default hover:bg-black border-b-2 border-white">
-            <div class="flex items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="" height="100" viewBox="0 0 24 24">
+            class="flex justify-center px-10 py-4 gap-6 sm:gap-7 bg-secondary rounded-4xl drop-shadow-default hover:bg-black border-b-2 border-white transition">
+            <div class="flex items-center gap-10 justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="" height="90" viewBox="0 0 24 24">
                     <defs>
                         <linearGradient id="grad-icon" x1="100%" y1="0%" x2="100%" y2="100%">
                             <stop offset="0%" style="stop-color:#FFFF; stop-opacity:1" />
@@ -95,7 +98,7 @@
                 </svg>
             </div>
             <div class="flex items-center">
-                <h1 class="text-white font-subtitle font-semibold text-2xl">E - Perpus <br> Online</h1>
+                <h1 class="text-white font-subtitle font-semibold text-xl sm:text-2xl">E - Perpus <br> Online</h1>
             </div>
         </div>
     </div>

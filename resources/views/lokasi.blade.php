@@ -6,9 +6,9 @@
 
     @include('components.slider')
 
-    <div class="flex items-center justify-center py-20 gap-10 max-w-6xl mx-auto">
+    <div class="md:flex items-center justify-center py-20 gap-10 max-w-6xl px-10 md:px-2 mx-auto">
         <span class="space-y-4 w-1/2 text-center">
-            <h1 class="font-title text-3xl text-center pb-4">LOKASI SEKOLAH</h1>
+            <h1 class="font-title text-2xl md:text-3xl text-center pb-4">LOKASI SEKOLAH</h1>
             <div class="flex gap-4 justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="" viewBox="0 0 256 367">
                     <path fill="#34a853"
@@ -22,14 +22,22 @@
                     <path fill="#ea4335"
                         d="M12.612 188.892S0 164.194 0 128.414c0-33.817 13.146-63.377 30.015-82.649l60.318 50.759z" />
                 </svg>
-                <a href="https://maps.app.goo.gl/5ugeVVGyP8PT5vUW8" class="font-subtitle text-lg font-semibold hover:underline" target="_blank">SMK Tamansiswa Jetis Yogyakarta</a>
+                <a href="https://maps.app.goo.gl/5ugeVVGyP8PT5vUW8" class="font-subtitle text-md md:text-lg font-semibold hover:underline" target="_blank">SMK Tamansiswa Jetis Yogyakarta</a>
             </div>
-            <p class="font-subtitle text-lg">Jl. Pakuningratan No.34A, Cokrodiningratan, Kec. Jetis, Kota Yogyakarta, Daerah
+            <p class="font-subtitle text-md md:text-lg">Jl. Pakuningratan No.34A, Cokrodiningratan, Kec. Jetis, Kota Yogyakarta, Daerah
                 Istimewa Yogyakarta 55233</p>
         </span>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.0877731619025!2d110.363906!3d-7.780518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5839811988ef%3A0xc1047e227e7ffb0e!2sTamansiswa%20Vocational%20High%20School%20Jetis!5e0!3m2!1sen!2sid!4v1745181891992!5m2!1sen!2sid"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="hidden md:block">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.0877731619025!2d110.363906!3d-7.780518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5839811988ef%3A0xc1047e227e7ffb0e!2sTamansiswa%20Vocational%20High%20School%20Jetis!5e0!3m2!1sen!2sid!4v1745181891992!5m2!1sen!2sid"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class=" md:hidden pt-10">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.0877731619025!2d110.363906!3d-7.780518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5839811988ef%3A0xc1047e227e7ffb0e!2sTamansiswa%20Vocational%20High%20School%20Jetis!5e0!3m2!1sen!2sid!4v1745181891992!5m2!1sen!2sid"
+                width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
 @endsection
