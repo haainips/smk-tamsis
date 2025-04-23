@@ -7,13 +7,17 @@ export default defineConfig({
         laravel({
             input: ["resources/css/app.css", "resources/js/app.js"],
             refresh: true,
+            publicDirectory: "public",
         }),
         tailwindcss(),
     ],
-    theme: {
-        extend: {
-            colors: {
-                base: "#02A1A1",
+    build: {
+        // Ensure assets are properly processed
+        manifest: true,
+        outDir: "public/build",
+        rollupOptions: {
+            output: {
+                manualChunks: undefined,
             },
         },
     },
