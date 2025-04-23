@@ -7,6 +7,7 @@
     <link rel="icon" href="{{ asset('images/icons/logo1.png') }}" type="image/png">
     @vite('resources/css/app.css')
     <script src="//unpkg.com/alpinejs" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body class="flex flex-col min-h-screen scroll-smooth">
