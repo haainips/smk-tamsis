@@ -14,11 +14,6 @@ export default defineConfig({
     build: {
         // Ensure assets are properly processed
         manifest: true,
-        outDir: "public/build",
-        rollupOptions: {
-            output: {
-                manualChunks: undefined,
-            },
-        },
+        outDir: "public/build"
     },
 });
