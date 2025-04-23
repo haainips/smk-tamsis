@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 @import 'tailwindcss';
-@source "../views";
+@source "resources/views";
 
 @tailwind utilities;
 
