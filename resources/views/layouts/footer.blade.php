@@ -1,5 +1,5 @@
 <footer class="bg-primary text-white px-6 py-4">
-    <div id="footer" class="container mx-auto grid md:grid-cols-3 gap-8 py-4">
+    <div id="footer" class=" mx-auto grid md:grid-cols-3 gap-8 py-4">
 
         <!-- Kolom 1: Logo & Alamat -->
         <div class="flex flex-col items-center text-center ">

@@ -6,7 +6,7 @@
 
     @include('components.slider')
 
-    <div class="lg:flex gap-16 px-10 md:px-20 py-8">
+    <div class="lg:flex gap-16 px-10 py-8">
         <div class="flex justify-center">
             <img src="{{ asset('images/landing-image1.svg') }}" alt="" width="470px">
         </div>
