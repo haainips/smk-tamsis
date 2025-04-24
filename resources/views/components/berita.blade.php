@@ -1,4 +1,4 @@
-<div class="max-w-8xl mx-auto px-4 sm:px-6 md:px-10 py-10">
+<div class="px-4 sm:px-6 md:px-10 py-10">
     <div class="flex flex-col py-6 px-4 sm:px-6 md:px-8 bg-[#107A9B2E] rounded-lg">
         <div class="flex flex-wrap justify-between items-center">
             <p class="text-black font-subtitle font-semibold text-2xl sm:text-2xl">Berita Terbaru</p>

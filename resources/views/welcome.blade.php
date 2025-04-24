@@ -6,7 +6,7 @@
 
     @include('components.slider')
 
-    <div class="md:flex gap-16 px-10 md:px-20 py-8">
+    <div class="lg:flex gap-16 px-10 md:px-20 py-8">
         <img src="{{ asset('images/landing-image1.svg') }}" alt="" width="470px">
         <div>
             <div class="flex items-center gap-2 pt-4">
@@ -32,7 +32,7 @@
         </div>
     </div>
 
-    <div class="max-w-8xl px-10 mx-auto">
+    <div class=" px-10">
         <hr class="border-t-2 py-5  border-primary">
     </div>
 
@@ -106,7 +106,7 @@
     {{-- Berita --}}
     @include('components.berita')
 
-    <div class="max-w-8xl px-10 mx-auto">
+    <div class="px-10">
         <hr class="border-t-2 py-5  border-primary">
     </div>
 

@@ -19,7 +19,7 @@
     }
 </script>
 
-<div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-10">
+<div class=" px-4 sm:px-6 lg:px-10">
   <div x-data="slider()" class="relative overflow-hidden rounded-2xl mt-4 h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] drop-shadow-default">
     <div class="flex transition-transform duration-700 ease-in-out"
          :style="`transform: translateX(-${activeSlide * 100}%);`">
