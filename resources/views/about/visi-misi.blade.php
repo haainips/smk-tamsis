@@ -6,14 +6,14 @@
     @include('components.slider')
     <div class="pt-10 px-10 md:px-20 lg:px-4 text-justify">
         <div class="flex flex-col items-center font-subtitle text-lg md:text-xl leading-tight pt-3">
-            <h1 class="text-3xl md:text-4xl font-title mt-9">VISI</h1>
+            <h1 class="text-3xl lg:text-4xl font-title mt-9">VISI</h1>
             <p class="pt-6 text-xl md:text-2xl text-center">“Terwujudnya Sumber Daya Manusia yang beriman dan bertaqwa,
                 cerdas, inovatif, serta berdaya saing global”.</p>
 
-            <h1 class="text-3xl md:text-4xl font-title pt-16">MISI</h1>
+            <h1 class="text-3xl lg:text-4xl font-title pt-16">MISI</h1>
         </div>
 
-        <div class="mt-8 space-y-5 font-subtitle text-md md:text-2xl">
+        <div class="mt-8 space-y-5 font-subtitle text-md md:text-xl lg:text-2xl">
             <div class="flex items-start gap-3 pl-2 md:pl-6">
                 <span>1.</span>
                 <p>Mengamalkan ajaran agama sesuai keyakinan masing-masing.</p>
