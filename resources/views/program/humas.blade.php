@@ -11,7 +11,7 @@
                 <div class="relative w-96 flex-shrink-0">
                     <!-- Vector backgrounds -->
                     <img src="{{ asset('images/Vector.png') }}" alt="vector1" class="absolute w-40 top-10 left-18 ">
-                    <img src="{{ asset('images/vector-1.png') }}" alt="vector2" class="absolute w-30 top-24 left-48">
+                    <img src="{{ asset('images/Vector-1.png') }}" alt="vector2" class="absolute w-30 top-24 left-48">
 
                     <!-- Profile Photo -->
                     <img src="{{ asset('images/humas.png') }}" alt="Waka Kurikulum"
