@@ -20,7 +20,7 @@
             </li>
 
             <li class="relative group">
-                <button class="flex items-center font-subtitle font-semibold text-md hover:underline gap-1">Tentang
+                <button class="flex items-center font-subtitle font-semibold text-lg hover:underline gap-1">Tentang
                     <img src="{{ asset('images/icons/icon-dropdown.png') }}" alt="" class="w-3">
                 </button>
                 <div class="absolute z-10 hidden group-hover:block bg-primary text-white rounded-b-xl shadow w-60">
@@ -88,79 +88,79 @@
 
         <!-- Menu Mobile -->
         <div id="mobile-menu"
-            class="hidden lg:hidden absolute md:top-24 left-0 w-full bg-primary text-white z-50 p-6 space-y-10">
-            <a href="{{ route('home') }}" class="block font-subtitle font-semibold text-lg">Beranda</a>
+            class="hidden lg:hidden absolute md:top-24 left-0 w-full bg-primary text-white z-50 p-6 space-y-6">
+            <a href="{{ route('home') }}" class="block font-subtitle font-semibold text-xl">Beranda</a>
 
             <!-- Tentang -->
-            <button class="w-full flex justify-between items-center font-subtitle font-semibold text-lg"
+            <button class="w-full flex justify-between items-center font-subtitle font-semibold text-xl"
                 onclick="toggleDropdown('tentang-dropdown')">
                 Tentang
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
             </button>
-            <div id="tentang-dropdown" class="hidden space-y-1 pl-4">
+            <div id="tentang-dropdown" class="hidden space-y-1 pl-4 text-lg">
                 <a href="{{ route('kepala-sekolah') }}"
-                    class="block font-subtitle text-md font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">Sambutan
+                    class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">Sambutan
                     Kepala Sekolah</a>
                 <a href="{{ route('sejarah') }}"
-                    class="block font-subtitle text-md font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">Sejarah</a>
+                    class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">Sejarah</a>
                 <a href="{{ route('visi-misi') }}"
-                    class="block font-subtitle text-md font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">Visi
+                    class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">Visi
                     Misi</a>
                 <a href="{{ route('struktur-organisasi') }}"
-                    class="block font-subtitle text-md font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">Struktur
+                    class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">Struktur
                     Organisasi</a>
             </div>
 
             <!-- Jurusan Dibuka -->
-            <button class="w-full flex justify-between items-center font-subtitle font-semibold text-lg"
+            <button class="w-full flex justify-between items-center font-subtitle font-semibold text-xl"
                 onclick="toggleDropdown('jurusan-dropdown')">
                 Jurusan Dibuka
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
             </button>
-            <div id="jurusan-dropdown" class="hidden space-y-1 text-sm pl-4">
+            <div id="jurusan-dropdown" class="hidden space-y-1 pl-4 text-lg">
                 <a href="{{ route('titl') }}"
-                    class="block font-subtitle text-md font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">TITL</a>
+                    class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">TITL</a>
                 <a href="{{ route('rpl') }}"
-                    class="block font-subtitle text-md font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">RPL</a>
+                    class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">RPL</a>
                 <a href="{{ route('tkr') }}"
-                    class="block font-subtitle text-md font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">TKR</a>
+                    class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">TKR</a>
                 <a href="{{ route('dkv') }}"
-                    class="block font-subtitle text-md font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">DKV</a>
+                    class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">DKV</a>
                 <a href="{{ route('tsm') }}"
-                    class="block font-subtitle text-md font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">TSM</a>
+                    class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">TSM</a>
             </div>
 
             <!-- Program -->
-            <button class="w-full flex justify-between items-center font-subtitle font-semibold text-lg"
+            <button class="w-full flex justify-between items-center font-subtitle font-semibold text-xl"
                 onclick="toggleDropdown('program-dropdown')">
                 Program
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
             </button>
-            <div id="program-dropdown" class="hidden space-y-1 pl-4">
+            <div id="program-dropdown" class="hidden space-y-1 pl-4 text-lg">
                 <a href="{{ route('kurikulum') }}"
-                    class="block font-subtitle text-md font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">WK.
+                    class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">WK.
                         KURIKULUM</a>
                 <a href="{{ route('humas') }}"
-                    class="block font-subtitle text-md font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">WK.
+                    class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">WK.
                         HUMAS</a>
                 <a href="{{ route('kesiswaan') }}"
-                    class="block font-subtitle text-md font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">WK.
+                    class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">WK.
                         KESISWAAN</a>
                 <a href="{{ route('sarpras') }}"
-                    class="block font-subtitle text-md font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">WK.
+                    class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">WK.
                         SARPRAS</a>
                 <a href="{{ route('ekstrakurikuler') }}"
-                    class="block font-subtitle text-md font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">EKSTRAKURIKULER</a>
+                    class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">EKSTRAKURIKULER</a>
             </div>
-            <a href="{{ route('berita') }}" class="block font-subtitle font-semibold text-lg">Berita</a>
-            <a href="{{ route('galeri') }}" class="block font-subtitle font-semibold text-lg">Galeri</a>
-            <a href="#footer" class="block font-subtitle font-semibold text-md">Kontak</a>
+            <a href="{{ route('berita') }}" class="block font-subtitle font-semibold text-xl">Berita</a>
+            <a href="{{ route('galeri') }}" class="block font-subtitle font-semibold text-xl">Galeri</a>
+            <a href="#footer" class="block font-subtitle font-semibold text-xl">Kontak</a>
         </div>
     </nav>
 </header>
