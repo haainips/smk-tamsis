@@ -5,7 +5,7 @@
 @section('content')
     @include('components.slider')
     <div class="flex flex-col md:flex-row justify-center gap-6 md:gap-10 py-12 md:py-20 max-w-7xl mx-auto px-10">
-        <img src="{{ asset('images/tsm.png') }}" alt="" class="rounded-xl h-64 md:h-80 w-full md:w-auto object-cover">
+        <img src="{{ asset('images/tsm.png') }}" alt="" class="rounded-xl h-44 md:h-70 w-full md:w-auto object-cover">
 
         <div class="leading-tight space-y-4 md:w-1/2">
             <h1 class="text-2xl md:text-3xl font-title font-semibold text-center md:text-start">Kompetensi Keahlian Teknik Sepeda Motor</h1>
@@ -19,7 +19,7 @@
         <hr class="border-t-2 border-primary mb-10">
     </div>
 
-    <div class="flex flex-col md:flex-row gap-8 lg:gap-16 py-10 lg:py-14 px-20 lg:px-10">
+    <div class="flex flex-col md:flex-row gap-8 lg:gap-10 py-10 lg:py-14 px-20 lg:px-10">
         <!-- VISI -->
         <div class="md:w-1/2">
             <h2 class="text-3xl md:text-4xl font-title text-center mb-4">VISI</h2>

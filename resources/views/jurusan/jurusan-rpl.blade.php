@@ -18,7 +18,7 @@
         <hr class="border-t-2 py-5 border-primary">
     </div>
 
-    <div class="flex flex-col md:flex-row gap-8 md:gap-16 py-8 md:py-14 px-20 lg:px-10">
+    <div class="flex flex-col md:flex-row gap-8 md:gap-10 py-8 md:py-14 px-20 lg:px-10">
         <!-- VISI -->
         <div class="md:w-1/2">
             <h2 class="text-3xl md:text-4xl font-title text-center mb-4">VISI</h2>

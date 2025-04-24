@@ -5,7 +5,7 @@
 @section('content')
     @include('components.slider')
 
-    <div class="py-14 md:px-4 max-w-6xl px-8 mx-auto">
+    <div class="py-14 md:px-20 px-10 lg:px-10">
         <h1 class="text-3xl font-title font-semibold text-center">Sejarah SMK Tamansiswa Jetis Yogyakarta</h1>
 
         <p class="font-subtitle text-lg md:text-xl leading-relaxed pt-6 text-justify">

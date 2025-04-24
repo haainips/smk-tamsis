@@ -4,7 +4,7 @@
 
 @section('content')
     @include('components.slider')
-    <div class="flex flex-col md:flex-row gap-6 md:gap-10 py-12 md:py-20 px-10 justify-center">
+    <div class="flex flex-col md:flex-row gap-6 md:gap-10 py-12 md:py-20 px-10 justify-center items-center">
         <img src="{{ asset('images/titl.jpg') }}" alt="" class="rounded-xl h-44 lg:h-70 w-full md:w-auto object-cover">
 
         <div class="leading-tight space-y-4 px-4 md:w-1/2">

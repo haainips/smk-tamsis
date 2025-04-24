@@ -4,7 +4,7 @@
 
 @section('content')
     @include('components.slider')
-    <div class="max-w-6xl mx-auto pt-10 px-10 md:px-4 text-justify">
+    <div class="pt-10 px-10 md:px-20 lg:px-4 text-justify">
         <div class="flex flex-col items-center font-subtitle text-lg md:text-xl leading-tight pt-3">
             <h1 class="text-3xl md:text-4xl font-title mt-9">VISI</h1>
             <p class="pt-6 text-xl md:text-2xl text-center">“Terwujudnya Sumber Daya Manusia yang beriman dan bertaqwa,
