@@ -12,7 +12,6 @@ export default defineConfig({
         tailwindcss(),
     ],
     build: {
-        // Ensure assets are properly processed
         manifest: true,
         outDir: "public/build"
     },
