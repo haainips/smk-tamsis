@@ -9,7 +9,7 @@
         <!-- Sports Section -->
         <div class="py-8 md:py-14 px-4 sm:px-6 lg:px-8">
             <h2 class="text-2xl sm:text-3xl font-title font-semibold text-center mb-6 sm:mb-8">BIDANG OLAHRAGA</h2>
-            <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 sm:gap-6 md:gap-8 lg:gap-10">
+            <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-8 sm:gap-6 md:gap-8 lg:gap-10">
                 <!-- Tennis -->
                 <div class="overflow-hidden bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow">
                     <div
@@ -83,7 +83,7 @@
                 </div>
 
                 <!-- Basket -->
-                <div class="overflow-hidden col-span-2 md:col-span-1 border border-gray-200 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <div class="overflow-hidden col-span-2 md:col-span-2 border border-gray-200 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
                     <div
                         class="bg-teal-600 rounded-t-lg text-white text-center py-2 px-4 font-title text-lg sm:text-xl drop-shadow-default">
                         BASKET
@@ -102,14 +102,14 @@
             </div>
         </div>
 
-        <div class="max-w-8xl px-10 mx-auto">
+        <div class="px-10">
             <hr class="border-t-2 py-5 border-primary">
         </div>
 
         {{-- Bidang Seni --}}
         <div class=" flex flex-col items-center gap-6">
             <h2 class="text-3xl font-title font-semibold text-center mb-6">BIDANG SENI</h2>
-            <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 sm:gap-6 md:gap-8 lg:gap-10">
+            <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-6 md:gap-8 lg:gap-10">
                 <!-- Karawitan -->
                 <div class="overflow-hidden bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow">
                     <div
@@ -184,14 +184,14 @@
             </div>
         </div>
 
-        <div class="max-w-8xl px-10 mx-auto">
+        <div class="px-10">
             <hr class="border-t-2 py-5 mt-10  border-primary">
         </div>
 
         {{-- Bidang Kompetensi Keahlian --}}
         <div class="py-8 md:py-4 px-4 sm:px-6 lg:px-8">
             <h2 class="text-2xl sm:text-3xl font-title font-semibold text-center mb-6 sm:mb-8">BIDANG KOMPETENSI KEAHLIAN</h2>
-            <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 sm:gap-6 md:gap-8 lg:gap-10">
+            <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-8 sm:gap-6 md:gap-8 lg:gap-10">
                 <!-- Robotik -->
                 <div class="overflow-hidden bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
                     <div
@@ -265,7 +265,7 @@
                 </div>
 
                 <!-- Paint & Airbrush -->
-                <div class="overflow-hidden col-span-2 md:col-span-1 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <div class="overflow-hidden col-span-2 md:col-span-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
                     <div
                         class="bg-teal-600 rounded-t-lg text-white text-center py-2 px-4 font-title text-lg sm:text-xl drop-shadow-default">
                         PAINT & AIRBRUSH

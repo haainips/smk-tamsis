@@ -88,7 +88,7 @@
 
         <!-- Menu Mobile -->
         <div id="mobile-menu"
-            class="hidden lg:hidden absolute top-20 left-0 w-full bg-primary text-white z-50 p-6 space-y-4">
+            class="hidden lg:hidden absolute md:top-20 lg-top-20 left-0 w-full bg-primary text-white z-50 p-6 space-y-4">
             <a href="{{ route('home') }}" class="block font-subtitle font-semibold text-md">Beranda</a>
 
             <!-- Tentang -->

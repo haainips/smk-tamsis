@@ -4,11 +4,11 @@
 
 @section('content')
     @include('components.slider')
-    <div class="flex flex-col md:flex-row gap-6 md:gap-10 py-12 md:py-20 max-w-7xl mx-auto px-10">
-        <img src="{{ asset('images/titl.jpg') }}" alt="" class="rounded-xl h-64 md:h-80 w-full md:w-auto object-cover">
+    <div class="flex flex-col md:flex-row gap-6 md:gap-10 py-12 md:py-20 px-10 justify-center">
+        <img src="{{ asset('images/titl.jpg') }}" alt="" class="rounded-xl h-44 lg:h-70 w-full md:w-auto object-cover">
 
         <div class="leading-tight space-y-4 px-4 md:w-1/2">
-            <h1 class="text-2xl text-center md:text-end md:text-3xl font-title font-semibold">Kompetensi Keahlian Teknik Instalasi Tenaga Listrik
+            <h1 class="text-2xl text-center lg:text-start lg:text-3xl font-title font-semibold">Kompetensi Keahlian Teknik Instalasi Tenaga Listrik
             </h1>
             <p class="font-subtitle text-md md:text-lg text-justify">
                 Adalah Jurusan Yang Mempelajari Seluruh Bidang-Bidang Yang Berkaitan Dengan Listrik, Mulai Dari Instalasi
@@ -18,11 +18,11 @@
         </div>
     </div>
 
-    <div class="max-w-7xl mx-auto px-4">
+    <div class="px-10">
         <hr class="border-t-2 border-primary mb-10">
     </div>
 
-    <div class="flex flex-col md:flex-row gap-10 md:gap-16 py-10 max-w-7xl mx-auto px-10">
+    <div class="flex flex-col md:flex-row gap-10 md:gap-16 py-10 lg:px-10 px-20">
         <!-- VISI -->
         <div class="md:w-1/2">
             <h2 class="text-3xl md:text-4xl font-title text-center mb-4">VISI</h2>
@@ -46,7 +46,7 @@
     </div>
 
 
-    <div class="max-w-8xl px-10 mx-auto">
+    <div class="px-10 ">
         <hr class="border-t-2 py-5 mt-10  border-primary">
     </div>
 

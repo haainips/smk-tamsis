@@ -15,11 +15,11 @@
         </div>
     </div>
 
-    <div class="max-w-7xl mx-auto px-4">
+    <div class="px-10">
         <hr class="border-t-2 border-primary mb-10">
     </div>
 
-    <div class="flex flex-col md:flex-row gap-8 md:gap-16 py-10 max-w-7xl mx-auto px-10">
+    <div class="flex flex-col md:flex-row gap-8 md:gap-16 py-10 lg:px-10 px-20">
         <!-- VISI -->
         <div class="md:w-1/2">
             <h2 class="text-3xl md:text-4xl font-title text-center mb-4">VISI</h2>
@@ -40,7 +40,7 @@
         </div>
     </div>
 
-    <div class="max-w-7xl mx-auto px-4">
+    <div class="px-10">
         <hr class="border-t-2 border-primary mb-10">
     </div>
 

@@ -4,7 +4,7 @@
 
 @section('content')
     @include('components.slider')
-    <div class="flex flex-col md:flex-row gap-6 md:gap-10 py-12 md:py-20 max-w-7xl mx-auto px-4">
+    <div class="flex flex-col md:flex-row gap-6 md:gap-10 py-12 md:py-20 px-4 justify-center">
         <div class="flex justify-center">
             <img src="{{ asset('images/rpl.jpg') }}" alt="" class="rounded-xl h-64 md:h-80 w-fit md:w-auto object-cover">
         </div>
@@ -14,11 +14,11 @@
         </div>
     </div>
 
-    <div class="max-w-8xl px-10 mx-auto">
+    <div class="px-10">
         <hr class="border-t-2 py-5 border-primary">
     </div>
 
-    <div class="flex flex-col md:flex-row gap-8 md:gap-16 py-8 md:py-14 max-w-7xl mx-auto px-10 md:px-2">
+    <div class="flex flex-col md:flex-row gap-8 md:gap-16 py-8 md:py-14 px-20 lg:px-10">
         <!-- VISI -->
         <div class="md:w-1/2">
             <h2 class="text-3xl md:text-4xl font-title text-center mb-4">VISI</h2>

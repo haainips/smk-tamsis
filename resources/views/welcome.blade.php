@@ -6,10 +6,8 @@
 
     @include('components.slider')
 
-    <div class="lg:flex gap-16 px-10 py-8">
-        <div class="flex justify-center">
-            <img src="{{ asset('images/landing-image1.svg') }}" alt="" width="470px">
-        </div>
+    <div class="lg:flex justify-center gap-16 px-10 py-8">
+        <img src="{{ asset('images/landing-image1.svg') }}" alt="" width="470px">
         <div>
             <div class="flex items-center gap-2 pt-4">
                 <span
@@ -78,7 +76,8 @@
                 </svg>
             </div>
             <div class="leading-tight">
-                <h1 class="text-white font-subtitle font-semibold text-xl sm:text-2xl">Ikatan Alumni<br>dan Bursa<br>Lowongan<br>Kerja
+                <h1 class="text-white font-subtitle font-semibold text-xl sm:text-2xl">Ikatan Alumni<br>dan
+                    Bursa<br>Lowongan<br>Kerja
                 </h1>
             </div>
         </div>

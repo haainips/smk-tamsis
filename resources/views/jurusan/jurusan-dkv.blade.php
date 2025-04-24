@@ -4,7 +4,7 @@
 
 @section('content')
     @include('components.slider')
-    <div class="flex flex-col md:flex-row justify-center gap-6 md:gap-10 py-12 md:py-20 max-w-7xl mx-auto px-10">
+    <div class="flex flex-col md:flex-row justify-center gap-6 md:gap-10 py-12 md:py-20 px-10">
         <img src="{{ asset('images/dkv.jpg') }}" alt="" class="rounded-xl h-64 md:h-80 w-full md:w-auto object-cover">
 
         <div class="leading-tight space-y-4 md:w-1/2">
@@ -18,11 +18,11 @@
         </div>
     </div>
 
-    <div class="max-w-7xl mx-auto px-4">
+    <div class="px-4">
         <hr class="border-t-2 border-primary mb-10">
     </div>
 
-    <div class="flex flex-col md:flex-row gap-8 md:gap-16 py-10 md:py-20 max-w-7xl mx-auto px-10">
+    <div class="flex flex-col md:flex-row gap-8 md:gap-16 py-10 md:py-20 px-20 lg:px-10">
         <!-- VISI -->
         <div class="md:w-1/2">
             <h2 class="text-3xl md:text-4xl font-title text-center mb-4">VISI</h2>
@@ -48,7 +48,7 @@
     </div>
 
 
-    <div class="max-w-8xl px-10 mx-auto">
+    <div class="px-10">
         <hr class="border-t-2 py-5 mt-10  border-primary">
     </div>
 
