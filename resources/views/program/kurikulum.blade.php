@@ -34,16 +34,15 @@
                     pendidikan nasional dan kebutuhan industri. </p>
             </span>
 
-            <ol class="py-4 space-y-2 list-decimal list-inside font-subtitle text-lg md:text-xl mt-10">
+            <ol class="py-4 space-y-2 list-decimal font-subtitle text-lg md:text-lg mt-10">
                 <li>Pengaturan Program Kerja</li>
                 <li>Penyusunan Kalender Pendidikan</li>
                 <li>Perencanaan dan Pembagian Kelas</li>
                 <li>Pembagian Tugas Mengajar</li>
                 <li>Pembagian Tugas Tambahan</li>
                 <li>Penyusunan Jadwal Mengajar</li>
-                <li>
-                    Penyusunan program dan perangkat pembelajaran, antara lain:
-                    <ul class="ml-8 mt-2 text-base md:text-lg space-y-2 list-[upper-alpha] list-inside">
+                <li>Penyusunan program dan perangkat pembelajaran, antara lain :
+                    <ul class="ml-8 mt-2 text-lg md:text-lg space-y-2 list-[upper-alpha]">
                         <li class="font-normal">Program Tahunan</li>
                         <li class="font-normal">Program Semester</li>
                         <li class="font-normal">Analisis SK-KD</li>

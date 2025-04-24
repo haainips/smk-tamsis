@@ -49,39 +49,36 @@
 
     @include('components.slider')
 
-    <div class="max-w-8xl mx-auto">
-        <div class="flex flex-col justify-center py-14 md:px-0 items-center">
-            <h1 class="text-3xl font-title pb-10">Galeri SMK Tamsis YK</h1>
-            <div class="bg-[#107A9B2E] py-6 px-8 rounded-lg drop-shadow-default">
+    <div class="flex flex-col justify-center py-14 px-10 md:px-20 lg:px-0 items-center">
+        <h1 class="text-3xl font-title pb-10">Galeri SMK Tamsis YK</h1>
+        <div class="bg-[#107A9B2E] py-6 px-8 rounded-lg drop-shadow-default">
 
-                <!-- Komponen Galeri -->
-                <div x-data="galeri()" x-init="init()" data-berita='@json($berita)'
-                    class="space-y-8">
+            <!-- Komponen Galeri -->
+            <div x-data="galeri()" x-init="init()" data-berita='@json($berita)' class="space-y-8">
 
-                    <!-- Galeri -->
-                    <div class="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-14">
-                        <template x-for="item in paginatedBerita" :key="item.gambar">
-                            <div x-transition:enter="transition-opacity duration-500" x-transition:enter-start="opacity-0"
-                                x-transition:enter-end="opacity-100" x-transition:leave="transition-opacity duration-300"
-                                x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"
-                                @click="$dispatch('open-modal', { image: item.gambar })"
-                                class="cursor-pointer hover:scale-105 transition-transform duration-300">
-                                <img :src="'/images/galeri/' + item.gambar" :alt="item.gambar"
-                                    class="w-full h-24 md:w-full md:h-48 object-cover rounded-xl">
-                            </div>
-                        </template>
-                    </div>
+                <!-- Galeri -->
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-14">
+                    <template x-for="item in paginatedBerita" :key="item.gambar">
+                        <div x-transition:enter="transition-opacity duration-500" x-transition:enter-start="opacity-0"
+                            x-transition:enter-end="opacity-100" x-transition:leave="transition-opacity duration-300"
+                            x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"
+                            @click="$dispatch('open-modal', { image: item.gambar })"
+                            class="cursor-pointer hover:scale-105 transition-transform duration-300">
+                            <img :src="'/images/galeri/' + item.gambar" :alt="item.gambar"
+                                class="w-full h-24 md:w-full md:h-48 object-cover rounded-xl">
+                        </div>
+                    </template>
+                </div>
 
-                    <!-- Pagination -->
-                    <div class="flex justify-center space-x-2">
-                        <template x-for="page in totalPages" :key="page">
-                            <button @click="currentPage = page"
-                                :class="currentPage === page ? 'bg-sign text-white' : 'bg-white text-gray-800 hover:bg-gray-200'"
-                                class="px-2 py-1 md:px-3 md:py-1 text-md border border-gray-300 rounded-xl transition">
-                                <span x-text="page"></span>
-                            </button>
-                        </template>
-                    </div>
+                <!-- Pagination -->
+                <div class="flex justify-center space-x-2">
+                    <template x-for="page in totalPages" :key="page">
+                        <button @click="currentPage = page"
+                            :class="currentPage === page ? 'bg-sign text-white' : 'bg-white text-gray-800 hover:bg-gray-200'"
+                            class="px-2 py-1 md:px-3 md:py-1 text-md border border-gray-300 rounded-xl transition">
+                            <span x-text="page"></span>
+                        </button>
+                    </template>
                 </div>
             </div>
         </div>
