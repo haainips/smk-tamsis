@@ -23,7 +23,6 @@
             --font-subtitle: 'Poppins', sans-serif;
             --font-weight-light: 300:
         }
-        }
     </style>
 </head>
 
