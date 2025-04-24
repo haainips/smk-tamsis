@@ -120,7 +120,7 @@
 
     @include('components.slider')
 
-    <div class="flex flex-col justify-center py-14 px-10 md:px-20 lg:px-0 items-center">
+    <div class="flex flex-col justify-center py-14 px-10 md:px-20 lg:px-14 items-center">
         <h1 class="text-2xl md:text-3xl font-title pb-10">BERITA SMK TAMSIS JETIS YK</h1>
         <div class="py-6 rounded-lg drop-shadow-default">
 
@@ -139,7 +139,7 @@
                                 class="w-full h-48 object-cover rounded-xl pb-4">
 
                             <!-- Judul Berita -->
-                            <h2 class="font-subtitle text-md md:text-lg font-semibold line-clamp-3" x-text="item.judul">
+                            <h2 class="font-subtitle text-md md:text-lg font-semibold md:line-clamp-3 lg:line-clamp-2" x-text="item.judul">
                             </h2>
 
                             <!-- Tanggal -->
