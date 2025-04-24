@@ -12,27 +12,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="//unpkg.com/alpinejs" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: "#02807F",
-                        secondary: "#015f5f",
-                        slight: "#359999",
-                        sign: "#DE8B2C",
-                    },
-                    fontFamily: {
-                        title: ["Racing Sans One", "cursive"], // Untuk kelas `font-title`
-                        subtitle: ["Poppins", "sans-serif"], // Untuk kelas `font-subtitle`
-                    },
-                    dropShadow: {
-                        default: "0 4px 4px rgba(0, 0, 0, 0.25)",
-                    }
-                }
-            }
+    <style type="text/tailwindcss">
+        @theme {
+            --color-primary: #02807F;
+            --color-secondary: #015f5f;
+            --color-slight: #359999;
+            --color-sign: #DE8B2C;
+            --drop-shadow-default: 0 4px 4px rgba(0, 0, 0, 0.25);
+            --font-title: 'Racing Sans One', cursive;
+            --font-subtitle: 'Poppins', sans-serif;
+            --font-weight-light: 300:
         }
-    </script>
+        }
+    </style>
 </head>
 
 <body class="flex flex-col min-h-screen scroll-smooth">
