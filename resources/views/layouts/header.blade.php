@@ -20,14 +20,13 @@
             </li>
 
             <li class="relative group">
-                <button class="flex items-center font-subtitle font-semibold text-lg hover:underline gap-1">Tentang
+                <button class="flex items-center font-subtitle font-semibold text-md hover:underline gap-1">Tentang
                     <img src="{{ asset('images/icons/icon-dropdown.png') }}" alt="" class="w-3">
                 </button>
                 <div class="absolute z-10 hidden group-hover:block bg-primary text-white rounded-b-xl shadow w-60">
                     <a href="{{ route('kepala-sekolah') }}"
                         class="block px-4 py-2 hover:bg-white hover:text-primary border font-subtitle font-semibold">Sambutan
-                        Kepala
-                        Sekolah</a>
+                        Kepala Sekolah</a>
                     <a href="{{ route('sejarah') }}"
                         class="block px-4 py-2 hover:bg-white hover:text-primary border font-subtitle font-semibold">Sejarah</a>
                     <a href="{{ route('visi-misi') }}"
@@ -88,8 +87,9 @@
 
         <!-- Menu Mobile -->
         <div id="mobile-menu"
-            class="hidden lg:hidden absolute top-20 md:top-24 left-0 w-full bg-primary text-white z-50 p-6 space-y-3 md:space-y-6">
+            class="hidden lg:hidden absolute top-20 md:top-24 left-0 w-full bg-primary text-white z-50 p-6 space-y-3 md:space-y-3">
             <a href="{{ route('home') }}" class="block font-subtitle font-semibold text-md md:text-2xl">Beranda</a>
+            <div class="border-b-2 border-white"></div>
 
             <!-- Tentang -->
             <button class="w-full flex justify-between items-center font-subtitle font-semibold text-md md:text-2xl"
@@ -99,7 +99,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
             </button>
-            <div id="tentang-dropdown" class="hidden space-y-1 pl-4 text-sm md:text-lg">
+            <div id="tentang-dropdown" class="hidden space-y-1 pl-4 text-sm md:text-xl">
                 <a href="{{ route('kepala-sekolah') }}"
                     class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">Sambutan
                     Kepala Sekolah</a>
@@ -112,6 +112,7 @@
                     class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">Struktur
                     Organisasi</a>
             </div>
+            <div class="border-b-2 border-white"></div>
 
             <!-- Jurusan Dibuka -->
             <button class="w-full flex justify-between items-center font-subtitle font-semibold text-md md:text-2xl"
@@ -121,7 +122,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
             </button>
-            <div id="jurusan-dropdown" class="hidden space-y-1 pl-4 text-sm md:text-lg">
+            <div id="jurusan-dropdown" class="hidden space-y-1 pl-4 text-sm md:text-xl">
                 <a href="{{ route('titl') }}"
                     class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">TITL</a>
                 <a href="{{ route('rpl') }}"
@@ -133,6 +134,7 @@
                 <a href="{{ route('tsm') }}"
                     class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">TSM</a>
             </div>
+            <div class="border-b-2 border-white"></div>
 
             <!-- Program -->
             <button class="w-full flex justify-between items-center font-subtitle font-semibold text-md md:text-2xl"
@@ -142,7 +144,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
             </button>
-            <div id="program-dropdown" class="hidden space-y-1 pl-4 text-sm md:text-lg">
+            <div id="program-dropdown" class="hidden space-y-1 pl-4 text-sm md:text-xl">
                 <a href="{{ route('kurikulum') }}"
                     class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">WK.
                         KURIKULUM</a>
@@ -158,8 +160,11 @@
                 <a href="{{ route('ekstrakurikuler') }}"
                     class="block font-subtitle font-semibold hover:bg-white hover:text-primary rounded-xl px-2 py-2">EKSTRAKURIKULER</a>
             </div>
+            <div class="border-b-2 border-white"></div>
             <a href="{{ route('berita') }}" class="block font-subtitle font-semibold text-md md:text-2xl">Berita</a>
+            <div class="border-b-2 border-white"></div>
             <a href="{{ route('galeri') }}" class="block font-subtitle font-semibold text-md md:text-2xl">Galeri</a>
+            <div class="border-b-2 border-white"></div>
             <a href="#footer" class="block font-subtitle font-semibold text-md md:text-2xl">Kontak</a>
         </div>
     </nav>
