@@ -20,8 +20,7 @@
 
             <div class="space-y-1 md:space-y-3">
                 <img src="{{ asset('images/berita2.png') }}" alt="" class="w-full rounded-2xl">
-                <h2 class="font-subtitle text-base sm:text-lg mt-2">Pesantren Ramadan 1446 Hijriah Kelas X SMK Tamansiswa
-                    Jetis Yogyakarta</h2>
+                <h2 class="font-subtitle text-base sm:text-lg mt-2">Alumni Mengajar: Wadah Berbagi Inspirasi Sekaligus Mempererat Silaturahmi</h2>
                 <p class="text-gray-600 font-subtitle text-sm">Kamis, 14 Januari 2025</p>
                 <a href="{{ route('berita2') }}"
                     class="inline-block w-full py-2 mt-3 text-white font-subtitle border border-white bg-secondary drop-shadow-default rounded-full hover:bg-black transition text-center">
@@ -31,8 +30,7 @@
 
             <div class="space-y-3">
                 <img src="{{ asset('images/berita3.png') }}" alt="" class="w-full rounded-2xl">
-                <h2 class="font-subtitle text-base sm:text-lg">Pesantren Ramadan 1446 Hijriah Kelas X SMK Tamansiswa
-                    Jetis Yogyakarta</h2>
+                <h2 class="font-subtitle text-base sm:text-lg">Pramuka SMK Tamansiswa Jetis Jejakkan Kaki di PDT ke-53</h2>
                 <p class="text-gray-600 font-subtitle text-sm">Kamis, 14 Januari 2025</p>
                 <a href="{{ route('berita3') }}"
                     class="inline-block w-full py-2 mt-3 text-white font-subtitle border border-white bg-secondary drop-shadow-default rounded-full hover:bg-black transition text-center">

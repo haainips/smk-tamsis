@@ -22,10 +22,23 @@
                     <path fill="#ea4335"
                         d="M12.612 188.892S0 164.194 0 128.414c0-33.817 13.146-63.377 30.015-82.649l60.318 50.759z" />
                 </svg>
-                <a href="https://maps.app.goo.gl/5ugeVVGyP8PT5vUW8" class="font-subtitle text-md md:text-lg font-semibold hover:underline" target="_blank">SMK Tamansiswa Jetis Yogyakarta</a>
+                <a href="https://maps.app.goo.gl/5ugeVVGyP8PT5vUW8"
+                    class="font-subtitle text-md md:text-lg font-semibold hover:underline" target="_blank">SMK Tamansiswa
+                    Jetis Yogyakarta</a>
             </div>
-            <p class="font-subtitle text-md md:text-lg">Jl. Pakuningratan No.34A, Cokrodiningratan, Kec. Jetis, Kota Yogyakarta, Daerah
+            <p class="font-subtitle text-md md:text-lg">Jl. Pakuningratan No.34A, Cokrodiningratan, Kec. Jetis, Kota
+                Yogyakarta, Daerah
                 Istimewa Yogyakarta 55233</p>
+            <div class="lg:flex items-center justify-center">
+                <a href="https://maps.app.goo.gl/1KTXmjoA7HLwKQW98" target="_blank" rel="noopener noreferrer"
+                    class="border flex gap-2 font-subtitle max-w-md text-white border-black bg-secondary drop-shadow-default rounded-full mt-5 px-4 py-1 hover:bg-white hover:text-[#02807F] transition justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7" />
+                    </svg>Buka di Google Maps
+                </a>
+                
+            </div>
         </span>
         <div class="hidden lg:block">
             <iframe
