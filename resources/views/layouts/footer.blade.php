@@ -143,7 +143,7 @@
                             <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="64;0" />
                         </path>
                     </svg>
-                    SMK TAMASIS YK
+                    SMK TAMSIS YK
                 </li>
             </ul>
             <img src="{{ asset('images/icons/tamsis-vokasi.svg') }}" alt="" class="mt-18 h-18">

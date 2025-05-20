@@ -28,7 +28,7 @@
 
 <body class="flex flex-col min-h-screen scroll-smooth">
     @include('layouts.header')
-    <main class=" py-4">
+    <main class=" py-4 pt-32">
         @yield('content')
     </main>
     @include('layouts.footer')

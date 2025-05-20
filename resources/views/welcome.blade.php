@@ -62,7 +62,7 @@
 
         {{-- Card 2 --}}
         <div
-            class="flex justify-center px-10 py-4 gap-6 sm:gap-7 bg-secondary rounded-4xl drop-shadow-default hover:bg-black border-b-2 border-white transition">
+            class="flex justify-center items-center px-10 py-4 gap-6 sm:gap-7 bg-secondary rounded-4xl drop-shadow-default hover:bg-black border-b-2 border-white transition">
             <div class="flex items-center gap-14 justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-14 h-14" viewBox="0 0 512 512">
                     <defs>

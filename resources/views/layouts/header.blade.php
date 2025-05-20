@@ -1,5 +1,5 @@
 <header>
-    <nav class="bg-primary text-white font-racing px-6 py-5 flex items-center justify-between">
+    <nav class="bg-primary text-white font-racing px-6 py-5 fixed w-full z-50 flex items-center justify-between">
         <!-- Logo -->
         <div class="flex items-center space-x-3">
             <img src="{{ asset('images/icons/logo1.png') }}" alt="Logo" class="h-14 md:h-18">
